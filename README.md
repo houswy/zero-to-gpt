@@ -8,6 +8,7 @@
 
 | 阶段 | 目录 | 要实现的东西 | 资料 | 完成标准 | 状态 |
 |---|---|---|---|---|---|
+| 0 | `00_skeleton` | 跑通并标注 bigram.py 与 gpt.py 的六段训练骨架；拧三个旋钮看损失曲线 | 视频第 7 集前半；ng-video-lecture 仓库 | 能说出六段各自作用；三组对照实验的曲线与记录 | ☐ |
 | 1 | `01_micrograd` | 标量自动求导引擎 `Value`，两层 MLP | 视频第 1 集；micrograd 仓库 | 与 PyTorch 梯度对齐；4 样本训练到全对 | ☐ |
 | 2 | `02_makemore` | 字符级语言模型：二元统计 → MLP → BatchNorm → WaveNet | 视频第 2～6 集；makemore 仓库 | 手推一遍反向传播；生成像样的英文名字 | ☐ |
 | 3 | `03_attention` | 自注意力、多头、因果掩码、Transformer 块 | 书第 3～4 章 | 不看答案写出 GPT 结构，形状全部能解释 | ☐ |
@@ -20,6 +21,8 @@
 ## 目录约定
 
 ```
+00_skeleton/
+  00_skeleton.ipynb            阶段 0：读与改参数，不写代码
 01_micrograd/
   01_micrograd_starter.ipynb   起始笔记本：任务说明 + TODO 骨架 + 自动测试 + 思考题
   my_solution.ipynb            自己的实现（完成后提交）
