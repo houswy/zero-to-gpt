@@ -1,0 +1,28 @@
+[submodule "reference/micrograd"]
+	path = reference/micrograd
+	url = https://github.com/karpathy/micrograd.git
+	shallow = true
+[submodule "reference/makemore"]
+	path = reference/makemore
+	url = https://github.com/karpathy/makemore.git
+	shallow = true
+[submodule "reference/nn-zero-to-hero"]
+	path = reference/nn-zero-to-hero
+	url = https://github.com/karpathy/nn-zero-to-hero.git
+	shallow = true
+[submodule "reference/ng-video-lecture"]
+	path = reference/ng-video-lecture
+	url = https://github.com/karpathy/ng-video-lecture.git
+	shallow = true
+[submodule "reference/nanoGPT"]
+	path = reference/nanoGPT
+	url = https://github.com/karpathy/nanoGPT.git
+	shallow = true
+[submodule "reference/minbpe"]
+	path = reference/minbpe
+	url = https://github.com/karpathy/minbpe.git
+	shallow = true
+[submodule "reference/LLMs-from-scratch"]
+	path = reference/LLMs-from-scratch
+	url = https://github.com/rasbt/LLMs-from-scratch.git
+	shallow = true

@@ -1,0 +1,13 @@
+# 数据、权重与运行产物
+*.pt
+*.pth
+*.bin
+*.safetensors
+data/
+checkpoints/
+runs/
+# 杂项
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+*.log

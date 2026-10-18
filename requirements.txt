@@ -1,0 +1,7 @@
+torch>=2.2
+numpy>=1.26
+matplotlib>=3.8
+tiktoken>=0.7
+regex>=2024.0
+tqdm>=4.66
+jupyter>=1.0
